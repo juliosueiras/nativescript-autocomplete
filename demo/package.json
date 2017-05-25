@@ -5,12 +5,12 @@
       "version": "2.1.1"
     },
     "tns-android": {
-      "version": "2.1.1"
+      "version": "3.0.0"
     }
   },
   "dependencies": {
-    "nativescript-autocomplete": "file:..",
-    "tns-core-modules": "^2.0.0"
+    "nativescript-autocomplete": "file:///home/juliosueiras/.projects/nativescript-autocomplete",
+    "tns-core-modules": "^3.0.1"
   },
   "devDependencies": {
     "babel-traverse": "6.7.6",
@@ -18,7 +18,8 @@
     "babylon": "6.7.0",
     "filewalker": "0.1.2",
     "lazy": "1.0.11",
-    "nativescript-dev-typescript": "^0.3.2",
-    "typescript": "^1.8.10"
+    "nativescript-dev-typescript": "^0.4.5",
+    "tns-platform-declarations": "^3.0.1",
+    "typescript": "^2.3.3"
   }
 }

@@ -39,7 +39,8 @@
   "homepage": "https://github.com/triniwiz/nativescript-autocomplete",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "tns-platform-declarations": "^2.0.0",
-    "typescript": "^1.8.10"
+    "tns-core-modules": "^3.0.1",
+    "tns-platform-declarations": "^2.5.2",
+    "typescript": "^2.3.3"
   }
 }

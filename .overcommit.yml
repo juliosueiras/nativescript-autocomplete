@@ -1,0 +1,4 @@
+PreCommit:
+  TsLint:
+    enabled: true
+    on_warn: fail 

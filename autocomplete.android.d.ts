@@ -1,4 +1,4 @@
-import * as view from 'ui/core/view';
+import * as view from 'tns-core-modules/ui/core/view';
 export declare class AutoComplete extends view.View {
     private _android;
     private _items;
@@ -7,11 +7,11 @@ export declare class AutoComplete extends view.View {
     static itemTapEvent: string;
     static onClose: string;
     constructor();
-    android: android.widget.AutoCompleteTextView;
+    readonly android: android.widget.AutoCompleteTextView;
     items: Array<any>;
     threshold: number;
     textColor: string;
-    _createUI(): void;
+    createNativeView(): android.widget.AutoCompleteTextView;
     itemsUpdate(items: any): void;
     showDropDown(): void;
     dismissDropDown(): void;

@@ -5,15 +5,19 @@
         "removeComments": true,
         "experimentalDecorators": true,
         "noEmitHelpers": true,
-        "declaration": true
+        "noEmitOnError": false,
+        "declaration": true,
+        "watch": false,
+        "pretty": true,
+        "lib": [
+            "es2016"
+        ]
     },
-    "files": [
-      "demo/node_modules/tns-core-modules/tns-core-modules.d.ts",
-      "node_modules/tns-platform-declarations/android17.d.ts",
-      "node_modules/tns-platform-declarations/ios.d.ts",
-      "node_modules/tns-platform-declarations/org.nativescript.widgets.d.ts",
-      "autocomplete.android.ts", 
-      "autocomplete.ios.ts"
-    ],
-    "compileOnSave": false
+    "exclude": [
+        "./node_modules/tns-platform-declarations/**/*",
+        "node_modules/tns-core-modules/**/*",
+        "demo/node_modules/**/*",
+        "demo/platforms/**/*",
+        "node_modules"
+    ]
 }
