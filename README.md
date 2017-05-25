@@ -20,7 +20,7 @@ $ tns plugin add https://github.com/juliosueiras/nativescript-autocomplete
 e.g
 
 ```typescript
-item:Array<string> = ['1','2','3','4']
+let item:Array<string> = ['1','2','3','4']
 ```
 
 ```typescript
