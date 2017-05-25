@@ -1,20 +1,29 @@
 # Autocomplete for NativeScript
 
-##Install
+- [Autocomplete for NativeScript](#autocomplete-for-nativescript)
+  * [Install](#install)
+  * [Usage](#usage)
+  * [ScreenShots](#screenshots)
+
+## Install
+
 ```
-npm install nativescript-autocomplete
+$ tns plugin add https://github.com/juliosueiras/nativescript-autocomplete
 ```
 
-##Usage
+## Usage
 
-IMPORTANT: Make sure you include `xmlns:ac="nativescript-autocomplete"` on the Page element
+**INFO:** The Autocomplete include the text field, hence you don't need to include `<TextField>`
+
+**IMPORTANT:** Make sure you include `xmlns:ac="nativescript-autocomplete"` on the Page element
 
 e.g
 
-```
+```typescript
 item:Array<string> = ['1','2','3','4']
 ```
-```
+
+```typescript
 itemTapped(args){
     const eventName = args.eventName;
     const data = args.data;
@@ -28,7 +37,6 @@ itemTapped(args){
 ```
 
 
-#ScreenShots
-Android |
---------|
-![Android](screenshots/autocomplete.gif?raw=true)
+## ScreenShots
+
+![Android](./screenshots/autocomplete.gif?raw=true)

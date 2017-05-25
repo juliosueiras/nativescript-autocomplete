@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "nativescript-autocomplete": "file:///home/juliosueiras/.projects/nativescript-autocomplete",
+    "nativescript-autocomplete": "git+https://github.com/juliosueiras/nativescript-autocomplete.git",
     "tns-core-modules": "^3.0.1"
   },
   "devDependencies": {
