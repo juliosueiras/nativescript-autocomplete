@@ -1,12 +1,12 @@
 import * as view from 'tns-core-modules/ui/core/view';
 import {TextView} from 'tns-core-modules/ui/text-view'
-import {TextField} from 'tns-core-modules/ui/text-field'
+import {EditableTextBase} from 'tns-core-modules/ui/editable-text-base'
 import * as app from 'tns-core-modules/application'
 import {Color} from 'tns-core-modules/color';
 
 declare var Array: any;
 
-export class AutoComplete extends TextField {
+export class AutoComplete extends EditableTextBase {
     private _android: android.widget.AutoCompleteTextView;
     private _items: Array<any>;
     private _textColor: string;

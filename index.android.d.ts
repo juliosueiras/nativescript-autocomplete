@@ -1,6 +1,6 @@
 import * as view from 'tns-core-modules/ui/core/view';
-import { TextField } from 'tns-core-modules/ui/text-field';
-export declare class AutoComplete extends TextField {
+import { EditableTextBase } from 'tns-core-modules/ui/editable-text-base';
+export declare class AutoComplete extends EditableTextBase {
     private _android;
     private _items;
     private _textColor;
