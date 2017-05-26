@@ -1,5 +1,6 @@
 import * as view from 'tns-core-modules/ui/core/view';
-export declare class AutoComplete extends view.View {
+import { TextField } from 'tns-core-modules/ui/text-field';
+export declare class AutoComplete extends TextField {
     private _android;
     private _items;
     private _textColor;

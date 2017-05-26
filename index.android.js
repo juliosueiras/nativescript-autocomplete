@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var view = require("tns-core-modules/ui/core/view");
+var text_field_1 = require("tns-core-modules/ui/text-field");
 var app = require("tns-core-modules/application");
 var color_1 = require("tns-core-modules/color");
 var AutoComplete = (function (_super) {
@@ -111,7 +111,7 @@ var AutoComplete = (function (_super) {
         this._android.setListSelection(index);
     };
     return AutoComplete;
-}(view.View));
+}(text_field_1.TextField));
 AutoComplete.itemTapEvent = "itemTap";
 AutoComplete.onClose = "onClose";
 exports.AutoComplete = AutoComplete;
